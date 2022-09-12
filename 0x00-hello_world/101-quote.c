@@ -1,5 +1,4 @@
 #include<unistd.h>
-
 /** 
  *main - Entry point
  * Description: print a quote using write function
