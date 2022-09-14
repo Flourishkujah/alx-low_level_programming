@@ -3,18 +3,17 @@
  *  print_last_digit - prints last digit of the integer input
  *  @n: integer to modify
  *
- *  Return: 1
+ *  Return: last digit
  */
 
 
 int print_last_digit(int n)
 {
-	int 1, p;
-
-	1 = n % 10;
-	if (1< 0)
-		1 = -1;
-	p = '0' + 1;
-	_putchar(p);
-	return (1);
+	n = n % 10;
+	if (n < 0)
+	{
+		n = -n;
+	}
+	_putchar('0' + n);
+	return (n);
 }
