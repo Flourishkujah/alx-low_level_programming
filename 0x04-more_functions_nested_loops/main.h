@@ -22,7 +22,7 @@ void print_to_98(int);
 void print_times_table(int);
 int _isupper(int);
 int _isdigit(int);
-int mul(int, int);
+int mul(int a, int b);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
